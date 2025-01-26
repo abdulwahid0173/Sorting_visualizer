@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Complex Sorting Visualizer</title>
+</head>
+
+<body>
+
+    <h1>Complex Sorting Visualizer</h1>
+    <canvas id="myCanvas"></canvas>
+    <div id="algorithmInfo"></div>
+
+
+    <div>
+        <button onClick="init()">init</button>
+        <button id="bubbleSortButton">Bubble Sort</button>
+        <button id="heapSortButton">Heap Sort</button>
+        <button id="cycleSortButton">Cycle Sort</button>
+        <button id="selectionSortButton">Selection Sort</button>
+    </div>
+    <div>
+        <button id="combSortButton">Comb Sort</button>
+        <button id="stoogeSortButton">Stooge Sort</button>
+        <button id="gnomeSortButton">Gnome Sort</button>
+        <button id="cocktailShakerSortButton">CockTailShaker Sort</button>
+    </div>
+    <div>
+        <button id="introsortButton">Intro Sort</button>
+        <button id="oddEvenSortButton">Odd Even Sort</button>
+
+    </div>
+
+    <div class="wrapper">
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+    </div>
+
+    <script src="math.js"></script>
+    <script src="column.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
